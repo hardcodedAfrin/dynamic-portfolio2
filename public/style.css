@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; color:#333; }
+header { text-align:center; padding:30px; background:#6a5acd; color:white; }
+.section { max-width:900px; margin:30px auto; background:white; padding:20px; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.1);}
+.skills { display:flex; flex-wrap:wrap; gap:10px; }
+.skill { background:#e0e0ff; padding:8px 12px; border-radius:20px; }
+.contact-box { display:flex; flex-direction:column; gap:15px; max-width:500px; margin:0 auto; padding:20px; background:#f0f0ff; border-radius:12px; }
+.contact-box input, .contact-box textarea { padding:12px; border:1px solid #ccc; border-radius:8px; font-size:1em; resize:none; }
+.contact-box textarea { min-height:100px; }
+.submit-btn { background:#6a5acd; color:white; border:none; padding:12px; border-radius:8px; cursor:pointer; font-weight:600; transition:background 0.3s; }
+.submit-btn:hover { background:#5847c2; }

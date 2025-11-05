@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <img id="avatar" alt="Profile" style="width:90px;height:90px;border-radius:50%;object-fit:cover;display:none;" />
+  <h1 id="fullName"></h1>
+  <p id="titleText"></p>
+</header>
+
+<section class="section" id="aboutSection">
+  <h2>About Me</h2>
+  <div id="aboutContent"></div>
+</section>
+
+<section class="section" id="skillsSection">
+  <h2>Skills</h2>
+  <div id="skillsContent" class="skills"></div>
+</section>
+
+<section class="section" id="projectsSection">
+  <h2>Projects</h2>
+  <div id="projectsContent"></div>
+</section>
+
+<section class="section" id="languagesSection">
+  <h2>Languages</h2>
+  <ul id="languagesContent"></ul>
+</section>
+
+<section class="section contact-section">
+  <h2>Contact Me</h2>
+  <form id="contactForm">
+    <div class="contact-box">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message..." required></textarea>
+      <button type="submit" class="submit-btn">Send</button>
+    </div>
+    <p id="responseMessage"></p>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
